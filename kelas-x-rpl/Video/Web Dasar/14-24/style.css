@@ -1,0 +1,73 @@
+.border{
+    border: 1px solid;
+    
+}
+
+.wadah {
+    width: 900px;
+    margin: auto;
+}
+
+
+h2:hover{
+    background-color: red;
+}
+
+.card:target{
+    background-color: yellow;
+}
+
+p::first-line {
+  color: red;
+  font-size: xx-large;
+}
+
+
+.display{
+    display: inline-block;
+    padding: 3%;
+}
+
+.warna {
+     background-image: linear-gradient(to bottom, red, yellow);
+     color: white;
+     
+}
+img{
+    width: 100px;
+}
+
+.card {
+    width: 200px;
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+.horizontal {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.rata {
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 500px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .tempat{
+        width: 80%;
+    }
+    .lebar{
+     width: 100%S;
+    }
+    .respon{
+        display: flex;
+        flex-direction: column;
+    }
+}
